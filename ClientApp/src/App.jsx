@@ -1,8 +1,12 @@
 import React from 'react'
 import './custom.scss'
-
+import WeekContainer from './components/WeekContainer'
 export function App() {
   return (
-    <div className="d-flex justify-content-center display-2">Hello, World!</div>
+    <>
+      <div>
+        <WeekContainer />
+      </div>
+    </>
   )
 }
